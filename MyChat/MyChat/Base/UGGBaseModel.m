@@ -12,7 +12,7 @@
 
 - (instancetype)initWithAttributes:(NSDictionary *)attributes {
     
-    return attributes;
+    return self;
 }
 
 @end

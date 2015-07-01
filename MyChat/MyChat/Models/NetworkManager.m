@@ -9,8 +9,8 @@
 #import "NetworkManager.h"
 #import "UGGAppNetAPIClient.h"
 
-
-
+#define kHost @"127.0.0.1:/8000"
+//NSString * const kLoginUrl = [NSString stringWithFormat:@"%@%@", kHost, @""];
 
 @implementation NetworkManager
 
