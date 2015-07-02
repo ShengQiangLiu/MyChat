@@ -14,5 +14,5 @@ urlpatterns = patterns('',
     # MyChatServer
     url(r'^test/$', views.test),
 
-    url(r'^user/signon/$', views.sign_on),
+    url(r'^user/signon/$', views.user_sign_on),
 )
